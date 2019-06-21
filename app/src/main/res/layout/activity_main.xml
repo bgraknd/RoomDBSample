@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="1"
+        android:id="@+id/recyclerTodoList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btnAddNewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Item" />
+
+    <Button
+        android:id="@+id/btnRemoveItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Item" />
+
+    <Button
+        android:id="@+id/btnUpdateItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Item" />
+
+    <Button
+        android:id="@+id/btnFindSingleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Single Item" />
+
+    <Button
+        android:id="@+id/btnRefreshItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Item" />
+
+</LinearLayout>
